@@ -1,4 +1,4 @@
-[gd_scene load_steps=25 format=3 uid="uid://cqb7c67uwobli"]
+[gd_scene load_steps=66 format=4 uid="uid://cqb7c67uwobli"]
 
 [ext_resource type="Texture2D" uid="uid://o8c8xcft2msy" path="res://Assets/Player/Idle/Chara - BlueIdle00000.png" id="2_8ao4h"]
 [ext_resource type="Script" uid="uid://bfqquibwllsyq" path="res://Scripts/player.gd" id="2_h5pvo"]
@@ -21,6 +21,153 @@
 [ext_resource type="Texture2D" uid="uid://calg4ievl3dbu" path="res://Assets/Player/Idle/Chara - BlueIdle00017.png" id="19_7u6y5"]
 [ext_resource type="Texture2D" uid="uid://dxhkw2bu6wfi7" path="res://Assets/Player/Idle/Chara - BlueIdle00018.png" id="20_ngvhg"]
 [ext_resource type="Texture2D" uid="uid://btr3nff4s6ukm" path="res://Assets/Player/Idle/Chara - BlueIdle00019.png" id="21_b1wcs"]
+[ext_resource type="Texture2D" uid="uid://ceqjy5hmrc5ec" path="res://Assets/Tilesets/Graveyard/png/Tiles/Bone (1).png" id="22_xluh6"]
+[ext_resource type="Texture2D" uid="uid://dg7lvit6s0y2v" path="res://Assets/Tilesets/Graveyard/png/Tiles/Bone (2).png" id="23_t0w1u"]
+[ext_resource type="Texture2D" uid="uid://dvmv4khhvo8oy" path="res://Assets/Tilesets/Graveyard/png/Tiles/Tile (7).png" id="24_vaejh"]
+[ext_resource type="Texture2D" uid="uid://cb3n72h7atrqi" path="res://Assets/Tilesets/Graveyard/png/Tiles/Tile (8).png" id="25_onybh"]
+[ext_resource type="Texture2D" uid="uid://cyucwivc0ql2t" path="res://Assets/Tilesets/Graveyard/png/Tiles/Tile (9).png" id="26_la64q"]
+[ext_resource type="Texture2D" uid="uid://cbdpllt8mf85c" path="res://Assets/Tilesets/Graveyard/png/Tiles/Tile (10).png" id="27_17gr7"]
+[ext_resource type="Texture2D" uid="uid://b6ynfojuv26s2" path="res://Assets/Tilesets/Graveyard/png/Tiles/Tile (11).png" id="28_yj6ny"]
+[ext_resource type="Texture2D" uid="uid://0xtnh7iiabps" path="res://Assets/Tilesets/Graveyard/png/Tiles/Tile (12).png" id="29_odfgs"]
+[ext_resource type="Texture2D" uid="uid://u236a7tetkn3" path="res://Assets/Tilesets/Graveyard/png/Tiles/Tile (13).png" id="30_a1vqk"]
+[ext_resource type="Texture2D" uid="uid://jjc0qt1bp1sn" path="res://Assets/Tilesets/Graveyard/png/Tiles/Tile (14).png" id="31_c4vmf"]
+[ext_resource type="Texture2D" uid="uid://dtlhsn72aqhpd" path="res://Assets/Tilesets/Graveyard/png/Tiles/Tile (15).png" id="32_rtpax"]
+[ext_resource type="Texture2D" uid="uid://qn8tu3f4jx2m" path="res://Assets/Tilesets/Graveyard/png/Tiles/Tile (16).png" id="33_8d1bd"]
+[ext_resource type="Texture2D" uid="uid://clobvyyli0i17" path="res://Assets/Tilesets/Graveyard/png/Tiles/Bone (3).png" id="34_s0r02"]
+[ext_resource type="Texture2D" uid="uid://cxl203i4rblii" path="res://Assets/Tilesets/Graveyard/png/Tiles/Bone (4).png" id="35_ar4ga"]
+[ext_resource type="Texture2D" uid="uid://baorh72ehebg2" path="res://Assets/Tilesets/Graveyard/png/Tiles/Tile (1).png" id="36_kk3nl"]
+[ext_resource type="Texture2D" uid="uid://dumkihc026v8p" path="res://Assets/Tilesets/Graveyard/png/Tiles/Tile (2).png" id="37_oj8rf"]
+[ext_resource type="Texture2D" uid="uid://dgskdw1ui1wmb" path="res://Assets/Tilesets/Graveyard/png/Tiles/Tile (3).png" id="38_np6g2"]
+[ext_resource type="Texture2D" uid="uid://bb14ndnj30lqr" path="res://Assets/Tilesets/Graveyard/png/Tiles/Tile (4).png" id="39_35v0m"]
+[ext_resource type="Texture2D" uid="uid://bm5tkq3murexi" path="res://Assets/Tilesets/Graveyard/png/Tiles/Tile (5).png" id="40_bdaoo"]
+[ext_resource type="Texture2D" uid="uid://csowuadudyu8x" path="res://Assets/Tilesets/Graveyard/png/Tiles/Tile (6).png" id="41_1h3qf"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bawjy"]
+texture = ExtResource("22_xluh6")
+0:0/size_in_atlas = Vector2i(8, 8)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_t0s6d"]
+texture = ExtResource("23_t0w1u")
+0:0/size_in_atlas = Vector2i(8, 8)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2d85o"]
+texture = ExtResource("24_vaejh")
+0:0/size_in_atlas = Vector2i(8, 8)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cbl0p"]
+texture = ExtResource("25_onybh")
+0:0/size_in_atlas = Vector2i(8, 8)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yrtix"]
+texture = ExtResource("26_la64q")
+0:0/size_in_atlas = Vector2i(8, 8)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_s60i5"]
+texture = ExtResource("27_17gr7")
+0:0/size_in_atlas = Vector2i(8, 8)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jwp2k"]
+texture = ExtResource("28_yj6ny")
+0:0/size_in_atlas = Vector2i(8, 8)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ikueq"]
+texture = ExtResource("29_odfgs")
+0:0/size_in_atlas = Vector2i(8, 8)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hv8c7"]
+texture = ExtResource("30_a1vqk")
+0:0/size_in_atlas = Vector2i(8, 8)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_b65aw"]
+texture = ExtResource("31_c4vmf")
+0:0/size_in_atlas = Vector2i(8, 8)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_735em"]
+texture = ExtResource("32_rtpax")
+0:0/size_in_atlas = Vector2i(8, 8)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kwvj1"]
+texture = ExtResource("33_8d1bd")
+0:0/size_in_atlas = Vector2i(8, 8)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1tx4r"]
+texture = ExtResource("34_s0r02")
+0:0/size_in_atlas = Vector2i(8, 8)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_pavk4"]
+texture = ExtResource("35_ar4ga")
+0:0/size_in_atlas = Vector2i(8, 8)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_t6rsu"]
+texture = ExtResource("36_kk3nl")
+0:0/size_in_atlas = Vector2i(8, 8)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-64, -64, 64, -64, 64, 64, -64, 64)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_db14v"]
+texture = ExtResource("37_oj8rf")
+0:0/size_in_atlas = Vector2i(8, 8)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-64, -64, 64, -64, 64, 64, -64, 64)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gcrve"]
+texture = ExtResource("38_np6g2")
+0:0/size_in_atlas = Vector2i(8, 8)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-64, -64, 64, -64, 64, 64, -64, 64)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_u057u"]
+texture = ExtResource("39_35v0m")
+0:0/size_in_atlas = Vector2i(8, 8)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_s60ef"]
+texture = ExtResource("40_bdaoo")
+0:0/size_in_atlas = Vector2i(8, 8)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cspyc"]
+texture = ExtResource("41_1h3qf")
+0:0/size_in_atlas = Vector2i(8, 8)
+0:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_3c2lb"]
+tile_size = Vector2i(128, 128)
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_bawjy")
+sources/1 = SubResource("TileSetAtlasSource_t0s6d")
+sources/2 = SubResource("TileSetAtlasSource_1tx4r")
+sources/3 = SubResource("TileSetAtlasSource_pavk4")
+sources/4 = SubResource("TileSetAtlasSource_t6rsu")
+sources/5 = SubResource("TileSetAtlasSource_db14v")
+sources/6 = SubResource("TileSetAtlasSource_gcrve")
+sources/7 = SubResource("TileSetAtlasSource_u057u")
+sources/8 = SubResource("TileSetAtlasSource_s60ef")
+sources/9 = SubResource("TileSetAtlasSource_cspyc")
+sources/10 = SubResource("TileSetAtlasSource_2d85o")
+sources/11 = SubResource("TileSetAtlasSource_cbl0p")
+sources/12 = SubResource("TileSetAtlasSource_yrtix")
+sources/13 = SubResource("TileSetAtlasSource_s60i5")
+sources/14 = SubResource("TileSetAtlasSource_jwp2k")
+sources/15 = SubResource("TileSetAtlasSource_ikueq")
+sources/16 = SubResource("TileSetAtlasSource_hv8c7")
+sources/17 = SubResource("TileSetAtlasSource_b65aw")
+sources/18 = SubResource("TileSetAtlasSource_735em")
+sources/19 = SubResource("TileSetAtlasSource_kwvj1")
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_xluh6"]
 animations = [{
@@ -87,7 +234,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"idle",
-"speed": 20.0
+"speed": 12.0
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_t0w1u"]
@@ -98,24 +245,37 @@ height = 34.25
 
 [node name="Gloomspire" type="Node2D"]
 
+[node name="Ground" type="TileMapLayer" parent="."]
+texture_filter = 1
+position = Vector2(600, 573)
+tile_map_data = PackedByteArray("AAD+////BQAAAAAAAAD/////BQAAAAAAAAAAAP//BQAAAAAAAAABAP//BQAAAAAAAAACAP//BQAAAAAAAAD9////BQAAAAAAAAD8////BQAAAAAAAAADAP//BQAAAAAAAAD7////BAAAAAAAAAAEAP//BgAAAAAAAAD7/wAABwAAAAAAAAD8/wAACAAAAAAAAAD9/wAACAAAAAAAAAD+/wAACAAAAAAAAAD//wAACAAAAAAAAAAAAAAACAAAAAAAAAABAAAACAAAAAAAAAACAAAACAAAAAAAAAADAAAACAAAAAAAAAAEAAAACQAAAAAAAAD7/wEADwAAAAAAAAAEAAEAEAAAAAAAAAD8/wEADAAAAAAAAAD9/wEADAAAAAAAAAD+/wEADAAAAAAAAAD//wEADAAAAAAAAAAAAAEADAAAAAAAAAABAAEADAAAAAAAAAACAAEADAAAAAAAAAADAAEADAAAAAAAAAAFAAEABQAAAAAAAAAGAAEABQAAAAAAAAAHAAEABQAAAAAAAAD6/wEABQAAAAAAAAD5/wEABQAAAAAAAAD4/wEABQAAAAAAAAD3////BgAAAAAAAAAIAP//BgAAAAAAAAD3/wAACAAAAAAAAAD3/wEACAAAAAAAAAAIAAAACAAAAAAAAAAIAAEACAAAAAAAAAA=")
+tile_set = SubResource("TileSet_3c2lb")
+
 [node name="Player" type="CharacterBody2D" parent="."]
+texture_filter = 1
 scale = Vector2(0.8, 0.8)
 script = ExtResource("2_h5pvo")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Player"]
 position = Vector2(539, 326)
-scale = Vector2(1, 1)
 sprite_frames = SubResource("SpriteFrames_xluh6")
 animation = &"idle"
-frame_progress = 0.923253
+frame_progress = 0.595782
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
-position = Vector2(536, 337)
+position = Vector2(536.25, 336.25)
 scale = Vector2(8, 8)
 shape = SubResource("CapsuleShape2D_t0w1u")
 
+[node name="Camera2D" type="Camera2D" parent="Player"]
+position = Vector2(533.75, 295)
+scale = Vector2(1, 1)
+zoom = Vector2(0.7, 0.7)
+position_smoothing_enabled = true
+position_smoothing_speed = 7.0
+
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
-position = Vector2(2469, 711)
+position = Vector2(2543, 1591)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
 position = Vector2(-1880, -110)

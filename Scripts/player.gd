@@ -1,31 +1,38 @@
 extends CharacterBody2D
 
-const SPEED = 300.0
-const JUMP_VELOCITY = -400.0
+const SPEED = 500.0
+const JUMP_VELOCITY = -800.0
+const MAX_JUMPS = 2   # <- 2 = double jump
 
-# Dapatkan node AnimatedSprite2D
 @onready var animated_sprite = $AnimatedSprite2D
 
+var jump_count = 0
+
 func _physics_process(delta: float) -> void:
-	# Tambahkan gravitasi
+	# Gravitasi
 	if not is_on_floor():
 		velocity += get_gravity() * delta
+	else:
+		# Reset jump kalau di tanah
+		jump_count = 0
 
-	# Tangani lompat
-	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
+	# Lompat + Double Jump
+	if Input.is_action_just_pressed("jump") and jump_count < MAX_JUMPS:
 		velocity.y = JUMP_VELOCITY
+		jump_count += 1
 
-	# Tangani pergerakan
-	var direction := Input.get_axis("ui_left", "ui_right")
-	if direction:
+	# Gerakan kiri/kanan
+	var direction := Input.get_axis("move_left", "move_right")
+	if direction != 0:
 		velocity.x = direction * SPEED
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 
-	# Mainkan animasi "idle" jika karakter tidak bergerak horizontal
+	# Animasi idle
 	if velocity.x == 0:
 		animated_sprite.play("idle")
-	# Atur arah flip horizontal
+
+	# Flip arah
 	if direction > 0:
 		animated_sprite.flip_h = false
 	elif direction < 0:
